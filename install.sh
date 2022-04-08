@@ -1,5 +1,7 @@
 #!/bin/bash
 
+mv ../dotfiles ../.dotfiles
+
 packages="git vim zsh"
 
 function apt_install {
